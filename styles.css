@@ -55,6 +55,12 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.section1 {
+  background-image: url("/assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .section1 .section1_container {
   padding: 303px 0 386px 0;
   display: flex;
@@ -226,13 +232,13 @@ a {
   color: #ffffff;
 }
 .section6 {
-  background-color: #e7ecff;
+  background: rgba(229, 235, 255, 0.5);
 }
 .section6 .section6_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 237px 0 172px 0;
+  padding: 160px 0 0 0;
 }
 .section6 .section6_container .content_block {
   max-width: 600px;
@@ -293,4 +299,59 @@ a {
   text-align: center;
   color: #ffffff;
   margin-bottom: 172px;
+}
+.footer {
+  background-color: #e7ecff;
+}
+.footer .footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer .footer_container .title_content_block {
+  padding: 61px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer_container .title_content_block .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939ea4;
+}
+.footer .footer_container .title_content_block .logo {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447e;
+}
+.footer .footer_container .title_content_block .purchase_button {
+  padding: 7px 17px;
+  background-color: #111b47;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+.footer .footer_container .nav_content_block {
+  padding: 24px 0 36px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #cdd1d4;
+}
+.footer .footer_container .nav_content_block .footer_nav .footer_nav_link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #929ecc;
+}
+.footer .footer_container .nav_content_block .footer_nav .footer_nav_link:not(:last-child) {
+  margin-right: 60px;
+}
+.footer .footer_container .nav_content_block .social_block .social_link:not(:last-child) {
+  margin-right: 30px;
 }
