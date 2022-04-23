@@ -168,3 +168,25 @@ a {
   line-height: 26px;
   color: #6f7cb2;
 }
+.section4 .section4_container {
+  padding: 91px 0;
+}
+.section4 .section4_container .content_block {
+  display: flex;
+  justify-content: space-between;
+}
+.section4 .section4_container .content_block .right_block {
+  width: 445px;
+}
+.section4 .section4_container .content_block .right_block .text_block .title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+.section4 .section4_container .content_block .right_block .text_block .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+}
