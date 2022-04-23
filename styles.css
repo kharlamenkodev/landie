@@ -131,18 +131,40 @@ a {
 .section2 .section2_container .content_block .left_block .cards_block {
   display: flex;
 }
-.section2 .section2_container .content_block .left_block .cards_block .card {
+.card {
   padding-right: 20px;
 }
-.section2 .section2_container .content_block .left_block .cards_block .card .title {
+.card .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #091133;
 }
-.section2 .section2_container .content_block .left_block .cards_block .card .text {
+.card .text {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #5d6970;
+}
+.section3 .section3_container {
+  padding: 125px 0;
+}
+.section3 .section3_container .content_block {
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .section3_container .content_block .right_block {
+  width: 445px;
+}
+.section3 .section3_container .content_block .right_block .text_block .title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+.section3 .section3_container .content_block .right_block .text_block .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
 }
